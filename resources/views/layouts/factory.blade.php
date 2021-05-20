@@ -1,0 +1,5 @@
+@include('factory.includes.head')
+@include('factory.includes.header')
+@include('factory.includes.navbar')
+@yield('content')
+@include('factory.includes.footer')
